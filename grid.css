@@ -1,0 +1,87 @@
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float:right;
+}
+button{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    height: 25px;
+    box-shadow: none;
+    
+}
+  
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
+  
+  .container .col {
+    border:1px solid #cccccc;
+    background: white;
+  }
+  
+  .container .col p {
+    padding: .25rem .75rem;
+  }
+
+  .gutter{
+      padding: 15px;
+      margin: 15px;
+  }
+  
+  
+  /* 2 columns (600px) */
+  
+  @media only screen and (min-width:600px) {
+    .container .col {
+      float: left;
+      width: 50%;
+    }
+  }
+  
+  
+  /* 3 columns (768px) */
+  
+  @media only screen and (min-width:768px) {
+    .container .col {
+      width: 33.333%;
+    }
+  }
+  
+  
+  /* 4 columns (992px) */
+  
+  @media only screen and (min-width:992px) {
+    .container .col {
+      width: 25%;
+    }
+  }

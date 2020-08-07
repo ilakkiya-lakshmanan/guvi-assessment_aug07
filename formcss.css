@@ -1,0 +1,43 @@
+body
+{
+display:inline-block;
+box-sizing: content-box;
+width:100vw;
+height:500px;
+padding: 50px;
+vertical-align: middle;
+
+}
+
+tbody{
+    padding:10px;
+}
+
+table
+{
+    background-color: lightgrey;
+    padding: 15px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border:1px solid gray;
+
+}
+
+tr{
+    padding: 5px;
+    height:30px;
+    width:200px;
+}
+
+
+
+td{
+    text-align: left;
+    width:300px;
+}
+button
+{
+    text-align: center;
+    margin-left: 100%;
+    /* margin-right: 20%; */
+}
