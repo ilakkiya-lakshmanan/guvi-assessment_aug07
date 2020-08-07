@@ -1,0 +1,100 @@
+.head
+{
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.float-left
+{
+    float:left;
+}
+.float-right
+{
+    float:right;
+}
+.home_button
+{
+    color: #fff;
+    background-color: #2513c9;
+    border-color: #2513c9;
+    height: 25px;
+    box-shadow: none;
+}
+.centralize
+{
+    width:100%;
+    height:50%;
+    background-color:rgb(188, 215, 226);
+    text-align: center;    
+}
+.button_green{
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    height: 25px;
+    box-shadow: none;
+    
+}
+.gutter{
+    padding: 15px;
+    margin: 15px;
+}
+
+ 
+@media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 830px;
+    }
+  }
+  
+  .container .col {
+    background: white;
+  }
+  
+  .container .col p {
+    padding: .25rem .75rem;
+  }
+
+  .gutter{
+      padding: 15px;
+      margin: 15px;
+  }
+  
+  
+  /* 2 columns (600px) */
+  
+  @media only screen and (min-width:600px) {
+    .container .col {
+      float: left;
+      width: 50%;
+    }
+  }
+  
+  
+  /* 3 columns (768px) */
+  
+  @media only screen and (min-width:768px) {
+    .container .col {
+      width: 50%;
+    }
+  }
+  
+  
+  /* 4 columns (992px) */
+  
+  @media only screen and (min-width:992px) {
+    .container .col {
+      width: 40%;
+    }
+  }
